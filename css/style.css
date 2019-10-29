@@ -1,0 +1,95 @@
+/* 公共样式 */
+body{
+    font-size: 12px;
+    color: #333;
+}
+.container{
+    width: 1226px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #a2a2a2;
+    line-height: 38px;
+}
+/* 公共顶部 */
+.page-top{
+    height: 38px;
+    background-color: #323232;
+}
+
+/* 顶部左边 */
+.page-top .top-lt{
+    float: left;
+}
+.page-top .top-lt span{
+    color: #3f3f3f;
+}
+.container a:hover{
+    color: #ffffff;
+}
+.down-box{
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    display: none;
+}
+
+.page-top .top-lt a.download:hover .down-box{
+    display: block;
+    margin-left: 550px;
+}
+/* 顶部右边 */
+.page-top .top-gt{
+    float: right;
+}
+.page-top .login{
+    float: left;
+}
+.page-top .car-box{
+    float: right;
+    width: 120px;
+    height: 38px;
+    text-align: center;
+}
+.page-top .car-box .car-box1{
+    width: 316px;
+    height: 90px;
+    margin-left: -230px;
+    line-height: 90px;
+    text-align: center;
+    box-shadow: rgb(170,170,170) 0px 1px 5px;
+    display: none;
+}
+.page-top .car-box a:hover{
+    color: #ff6700; 
+}
+.page-top .car-box:hover .car-box1{
+    display: block;
+    color: #3f3f3f;
+}
+
+/* 搜索框 */
+.header-logo{
+    width: 1226px;
+    height: 88px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 88px;
+}
+.header-logo .logo-ir img{
+    margin-left: 0px;
+    width: 55px;
+    height: 55px;
+    float: left;
+    padding: 4.5px 142px 4.5px 0px;
+}
+.header-logo .nav-item{
+    float: left;
+}
+.header-logo .nav-item a{
+    font-size: 14px;
+    line-height: 17px;
+    padding: 19px 10px;
+    display: inline-block;
+    color: #333;
+}
